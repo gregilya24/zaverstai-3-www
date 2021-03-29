@@ -1,0 +1,90 @@
+@import "exB1.scss";
+@import "exB2.scss";
+@import "main-header.scss";
+@import "slogan.scss";
+@import "button.scss";
+@import "about-us";
+@import "portfolio";
+@import "team";
+@import "how-we-work";
+@import "feedbacks";
+@import "order";
+@import "main-footer";
+
+
+
+
+
+
+
+// @font-face {
+//   font-family: "Montserrat";
+//   src: local("☺"), url("../fonts/montserrat.woff2") format("woff2"), url("../fonts/montserrat.woff") format("woff") ;
+//   font-weight: 700;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: "montserratblack";
+//   src: local("☺"), url("../fonts/montserratblack.woff2") format("woff2"), url("../fonts/montserratblack.woff") format("woff") ;
+//   font-weight: 700;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: "montserratbold";
+//   src: local("☺"), url("../fonts/montserratbold.woff2") format("woff2"), url("../fonts/montserratbold.woff") format("woff") ;
+//   font-weight: 700;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: "montserrathairline";
+//   src: local("☺"), url("../fontsmontserrathairline.woff2") format("woff2"), url("../fonts/montserrathairline.woff") format("woff") ;
+//   font-weight: 700;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: "montserratlight";
+//   src: local("☺"), url("../montserratlight.woff2") format("woff2"), url("../fonts/montserratlight.woff") format("woff") ;
+//   font-weight: 700;
+//   font-style: normal;
+// }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+$font-stack: helvetica, sans-serif;
+$primary-color: black;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #E5E5E5;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+  padding: 0px;
+  margin: 0px;
+
+}
+.tittle {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height, or 125% */
+
+text-transform: uppercase;
+
+color: #533738;
+}

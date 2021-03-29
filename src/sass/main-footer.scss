@@ -1,0 +1,25 @@
+.main-footer {
+  background-color: #EFE6E4;
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 37px;
+  padding-top: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-footer__contacts {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+.main-footer__contacts-item {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+
+}
+.main-footer__tel {
+  margin-right: 42px;
+}

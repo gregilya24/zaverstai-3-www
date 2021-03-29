@@ -1,0 +1,49 @@
+.how-we-work {
+  background-color: #E2C4BA;
+  width: 1400px;
+  margin: 0 auto;
+}
+.how-we-work__tittle {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 35px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.how-we-work__steps-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  width: 1200px;
+  margin: 0 auto;
+
+}
+.how-we-work__step {
+  width: 285px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.how-we-work__step-number {
+  margin: 0 auto;
+  display: block;
+  background-color: #8D7370;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+}
+.how-we-work__step-desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  text-align: center;
+}

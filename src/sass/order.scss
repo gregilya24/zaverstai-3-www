@@ -1,0 +1,77 @@
+
+.order {
+  background-color: #8D7370;
+  width: 1117px;
+  margin: 0 auto;
+  padding: 0px;
+  padding-left: 182px;
+  padding-right: 101px;
+  display: flex;
+
+}
+.order__form-area {
+  display: flex;
+  flex-direction: column;
+}
+.order__form {
+  display: flex;
+  flex-direction: column;
+}
+.order__text-area {
+  width: 508px;
+  height: 35px;
+  border: 0px;
+  border-radius: 0px;
+  border-bottom: 1px solid white;
+  background-color: rgba(80,55,53, 0);
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #F6EDE9;
+
+  padding-bottom: 5px;
+}
+.order__text-area:focus {
+  outline: 0px;
+  border-radius: 0px;
+  border: 1px solid white;
+}
+.order__text-area--1st {
+  margin-bottom: 35px;
+}
+.write-us-form-button {
+  margin-top: 31px;
+}
+.order__tittle {
+  /* /Заголовок2 */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height, or 125% */
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+
+}
+
+.order__desc {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.order_map {
+  line-height: 0px;
+  font-size: 0px;
+}

@@ -1,0 +1,110 @@
+// .main-header {
+//   // border: 1px solid black;
+//   background-color: white;
+// }
+//
+// .main-nav {
+//   display: flex;
+//   flex-direction: column;
+//   font-size: 20px;
+//   text-align: center;
+//   text-transform: uppercase;
+// }
+//
+// .main-nav__wrap {
+//   display: flex;
+//   flex-direction: column;
+//   border-bottom: 1px solid #e6e6e6;
+//   position: relative;
+// }
+//
+// .main-nav__site-name {
+//   padding-top: 25px;
+//   padding-bottom: 25px;
+//   border-bottom: 1px solid #e6e6e6;
+//   text-align: center;
+// }
+//
+// .main-nav__logo {
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   background-color: red;
+// }
+//
+// .main-munu {
+//   display: flex;
+//   flex-direction: column;
+// }
+//
+// .main-munu__item {
+//   padding-top: 25px;
+//   padding-bottom: 25px;
+//   border-bottom: 1px solid #e6e6e6;
+// }
+
+.main-header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #533738;
+  margin: 0px;
+  padding: 0px;
+  width: 1400px;
+  background-color: #EFE6E4;
+  margin: 0 auto;
+  min-height: 715px;
+  background-image: url("../img/anastasiya-vysotskaya.jpg");
+
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 36px;
+  // border: 1px solid black;
+  align-items: center;
+
+
+}
+.main-menu {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 841px;
+}
+.main-nav__item {
+  padding: 0px;
+
+}
+.main-nav .main-munu__item {
+    list-style-type: none;
+    // border: 1px solid black;
+}
+.main-nav__site-name {
+  text-transform: uppercase;
+}
+.main-nav__logo {
+  width: 25px;
+}
+.main-nav__item--logo {
+  display: flex;
+  align-items: center;
+}
+.main-munu__item {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+  color: #533738;
+  // border: 1px solid black;
+}

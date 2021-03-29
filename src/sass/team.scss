@@ -1,0 +1,27 @@
+.team {
+  background-color: #E2C4BA;
+  width: 1400px;
+  margin: 0 auto;
+}
+.team__tittle {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  width: 1040px;
+  margin: 0 auto;
+}
+.team__list-member {
+  width: 320px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+
+}
